@@ -26,8 +26,13 @@
 /* Set core body defaults */
 html,
 body {
-  height: 100dvh;
+  min-height: 100dvh;
   min-height: 100svh;
+
+  justify-content: center;
+
+
+
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 
@@ -97,10 +102,7 @@ body {
 }
 
 /* centering card element */
-main {
-  padding-block: 6em;
-  padding-inline: 1.5625em;
-}
+
 
 /* center card */
 .container-card {
